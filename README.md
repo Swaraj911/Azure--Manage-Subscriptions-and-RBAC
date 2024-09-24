@@ -18,14 +18,6 @@ Also demonstrates how to make subscription management easier using management gr
 5. Search for and select [Management groups].
 6. On the Management groups blade, click +Create.
 7. Create management group with the following settings. Select Submit when you are done.
-+------------------------------------------------------------------------+
-| Settings                         | Value                               |
-+------------------------------------------------------------------------+
-| Management group ID              | az104-mg1(must be unique in the     |
-|                                  | directory)                          |
-+----------------------------------|-------------------------------------+
-| Management group display name    | az104-mg1                           |
-+------------------------------------------------------------------------+
 8. Refresh the management group page to ensure your displays. This may take a minute.
 
 ### Step 2: Review and assign a built-in Azure role
@@ -49,16 +41,6 @@ Also demonstrates how to make subscription management easier using management gr
 1. Continue working on your management group. Navigate to the Access control(IAM) blade.
 2. Select + Add, from the drop-down menu, select Add custom role.
 3. On the Basics tab complete the configuration.
-+-----------------------------------------------------------------------+
-| Setting                          | Value                              |
-+-----------------------------------------------------------------------+
-| Custom role name                 | Custom                             |
-|                                  | Support                            |
-|                                  | Request                            |
-+----------------------------------|------------------------------------+
-| Description                      | A custom contributor role for      |
-|                                  | support requests.                  |
-+-----------------------------------------------------------------------+
 4. For Baseline permissions, select Clone a role. In the Role to clone drop-down menu, select Support Request Contributor.
 5. Select Next to move to the Permissions tab, and then select + Exclude permissions.
 6. In the resource provider search field, enter [.Support] and select Microsoft.Support.
