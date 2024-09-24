@@ -62,6 +62,7 @@ Also demonstrates how to make subscription management easier using management gr
 1. In the portal locate the az104-mg1 resource and select Activity log. The activity log provides insight into subscription-
    level events.
 2. Review the activites for role assignments. The activity log can be filtered for specific operations.
+   ![Screenshot 2024-09-24 212021](https://github.com/user-attachments/assets/05e92e29-f0d1-4ea5-bcc1-5e70e9669db8)
 
 ## Key takeaways
 - Management groups are used to logically organize subscriptions.
