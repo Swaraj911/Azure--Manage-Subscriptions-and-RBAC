@@ -7,7 +7,7 @@ Also demonstrates how to make subscription management easier using management gr
 - An active Azure subscription
 - Azure Portal access
 
-## Steps to Manage Subscriptions and RBAC Lab
+## Steps to Manage Subscriptions and RBAC
 
 ### Step 1: Implement Management Groups
 1. Sign in to the Azure portal- [https://portal.azure.com].
