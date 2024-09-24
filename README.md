@@ -47,13 +47,14 @@ Also demonstrates how to make subscription management easier using management gr
    SETTING:-
    Custom role name: Custom, Support, Request
    Description: A custom contributor role for support requests.
-5. For Baseline permissions, select Clone a role. In the Role to clone drop-down menu, select Support Request Contributor.
-6. Select Next to move to the Permissions tab, and then select + Exclude permissions.
-7. In the resource provider search field, enter [.Support] and select Microsoft.Support.
-8. In the list of permissions, place a checkbox next to Other: Registers Support Resource Provider and then select Add. The
+4. For Baseline permissions, select Clone a role. In the Role to clone drop-down menu, select Support Request Contributor.
+   ![Screenshot 2024-09-24 205724](https://github.com/user-attachments/assets/e0eacd40-d21a-40ac-aea4-da6b6e5b80d0)
+5. Select Next to move to the Permissions tab, and then select + Exclude permissions.
+6. In the resource provider search field, enter [.Support] and select Microsoft.Support.
+7. In the list of permissions, place a checkbox next to Other: Registers Support Resource Provider and then select Add. The
    role should be updated to include this permission as a NotAction.
-9. On the Assignable scopes tab, ensure your management group is listed, then click Next.
-10. Review the JSON for the Actions, NotActions, and AssignableScopes that are customized in the role.
+8. On the Assignable scopes tab, ensure your management group is listed, then click Next.
+9. Review the JSON for the Actions, NotActions, and AssignableScopes that are customized in the role.
 10.Select Review + Create, and then select Create.
    (Note: At this point, you have created a custom role and assigned it to the management group.)
 
